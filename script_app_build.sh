@@ -38,9 +38,9 @@ EXPOSE 8080
 docker build --tag flissek/testing:$ver .
 
 #Ask for login and user password for the repository (at the moment login is hardcoded)
-#read -p "Type your GIT login and press enter
+#read -p "Type your DockerHub login and press enter
 #" user_name
-read -s -p "Type your GIT pass and press enter
+read -s -p "Type your DockerHub pass and press enter
 " user_pass
 
 #alternate repository login
